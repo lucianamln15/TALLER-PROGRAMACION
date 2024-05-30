@@ -1,0 +1,216 @@
+html{
+    font-size: 62.5%;
+    box-sizing: border-box;
+    background-image: url(/imagenes/f3.jpg) ;
+    
+    background-size: cover;
+    height: 420px;
+}
+
+
+*,*:before, *:after{
+box-sizing: inherit;
+}
+
+body{
+    font-size: 16px;
+    font-family:'krub' sans-serif;
+}
+h1{
+    font-size: 3.8rem;
+  
+} 
+
+h2{
+    
+    color: rgb(36, 169, 246);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2.8rem;
+}
+h3{
+    font-size: 1.8rem;
+}
+h1,h2,h3{
+    text-align: center;
+}
+.navegacion-principal{
+   
+     display: flex;
+    justify-content:space-between;
+}
+.contenedor{
+    width: 120 rem;
+    margin: 0 auto;
+}
+.boton{
+    background-color: rgb(247, 39, 56);
+    color: aliceblue;
+    padding:  5rem, 4rem;
+    margin-top: 3 rem;
+    font-size:  2 rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: .5rem;
+    width: 90%;
+    text-align: center;
+
+}
+@media(min-width: 768px){
+ .boton{
+    width: auto;
+ }
+
+}
+.r{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+
+.nav-bg{
+  
+    background-color: rgb(246, 142, 229);
+   
+   
+}
+.navegacion-principal a{
+   
+     color: rgb(12, 14, 16);
+     text-decoration: none;
+     font-size: 2rem;
+     font-weight: 700;
+      padding:1 rem;
+     
+}
+.navegacion-principal a:hover{
+    background-color: rgb(189, 50, 196);
+    color: rgb(186, 228, 32);
+}
+.pelu{
+    background-image: url(../imagenes/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 420px;
+}
+.contenido-pelu{
+    position: absolute;
+ 
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.servicio{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.iconos{
+    height: 15rem;
+    width: 15rem;
+    background-color: lightskyblue;
+   border-radius: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.descripcion{
+    color: rgb(63, 193, 226);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.descripcion2{
+    color: darkcyan;
+}
+.servicios{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+.iconos-nos{
+    height: 15rem;
+    width: 15rem;
+    background-color: rgb(198, 192, 73);
+   border-radius: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items:center;
+}
+
+.contactanos{
+    background-color: rgb(238, 230, 232);
+    align-items: center;
+}
+.contactoo{
+    margin: 0;
+    top: 50%;
+    left: 50%;
+   
+}
+
+.contacto-fondo{
+    background-image: url(../imagenes/f4con.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 320px;}
+.i{
+    text-align: center;
+    font-size: 25px;
+    color: black;
+    border-radius: 50%;
+    padding: 15px;
+    box-shadow: 0px,5px,10,px rgb(0,0, 0.35);
+    transition: .3s ease;
+
+
+}
+.fa-facebook:hover{
+    background-color: blue;
+    color: rgb(15, 15, 15);
+    box-shadow: 0 0 15px blue, 0 0  45px blue,0 0 75px blue, 0 0 115 blue;
+
+}
+.fa-instagram:hover{
+    background-color: blueviolet; 
+    color: rgb(23, 23, 23);
+    box-shadow: 0 0 15px purple,0 0  45px purple,0 0 75px purple,0 0 115 purple;
+
+}
+.fa-whatsapp:hover{
+    background-color: green;
+    color: rgb(18, 17, 17);
+    box-shadow: 0 0 15px green,0 0  45px green,0 0 75px green,0 0 115 green;
+
+}
+.sobre-nosotros{
+    color: hotpink;
+}
+
+.nos{
+    
+    background-image: url(../imagenes/acfondo3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 420px;
+    
+}
+.contenido-nos{
+    position: relative;
+ 
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;}
+.descripcion3{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(233, 14, 113);
+    font-size: 20px;
+    font-weight: 800;
+    
+
+}
